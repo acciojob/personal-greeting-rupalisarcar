@@ -17,10 +17,9 @@ const App = () => {
    return (
       <div>
          <label>Enter name
-        <input type='text' value={inputValue} onChange={handleChange} onKeyDown={takeInput} />
-      </label>
-       {inputValue && <p>Hello {inputValue}!</p>}
-      </>
+            <input type='text' value={inputValue} onChange={handleChange} onKeyDown={takeInput} />
+         </label>
+            {inputValue && <p>Hello {inputValue}!</p>}
       </div>
     )
 }
